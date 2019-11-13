@@ -1,5 +1,5 @@
-elastic_version: 7.1.1
-injector_version: 7.1.1
+elastic_version: 7.4.2
+injector_version: 7.4.2
 elastic_download: https://artifacts.elastic.co
 elastic_user_password: password
 apm_system_user_password: password

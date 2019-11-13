@@ -14,12 +14,12 @@ path.logs: /var/log/logstash
 #
 # X-Pack Monitoring
 # https://www.elastic.co/guide/en/logstash/current/monitoring-logstash.html
-xpack.monitoring.enabled: true
-xpack.monitoring.elasticsearch.hosts: ["https://127.0.0.1:9200"]
+#xpack.monitoring.enabled: true
+#xpack.monitoring.elasticsearch.hosts: ["http://127.0.0.1:9200"]
 #
 # X-Pack Management
 # https://www.elastic.co/guide/en/logstash/current/logstash-centralized-pipeline-management.html
-xpack.management.enabled: false
+#xpack.management.enabled: false
 #xpack.management.pipeline.id: ["main", "packetbeat"]
 #xpack.management.elasticsearch.url: ["http://localhost:9200"]
 

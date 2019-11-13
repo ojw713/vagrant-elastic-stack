@@ -11,6 +11,7 @@ Vagrant.configure(2) do |config|
         ubuntu.vm.hostname = "elastic-stack"
 
         ubuntu.vm.network :forwarded_port, guest: 5601, host: 5601
+        ubuntu.vm.network :forwarded_port, guest: 5044, host: 5044
 
         # If you export the box switch to the second line to keep the /elastic-stack/ folder
         ubuntu.vm.synced_folder "elastic-stack/", "/elastic-stack/"
