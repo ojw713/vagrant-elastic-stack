@@ -92,7 +92,7 @@
       user: elastic
       password: "{{ elastic_user_password }}"
       method: POST
-      body: '{"cluster": ["manage_index_templates", "monitor", "manage_ilm"], "indices": [{"names": [ "logstash-*" ], "privileges": ["write","delete","create_index","manage","manage_ilm"]  }]}'
+      body: '{"cluster": ["manage_index_templates", "monitor", "manage_ilm"], "indices": [{"names": [ "logstash-*","filebeat-*" ], "privileges": ["write","delete","create_index","manage","manage_ilm"]  }]}'
       force_basic_auth: yes
       status_code: 200
       body_format: json

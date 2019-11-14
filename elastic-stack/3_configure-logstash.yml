@@ -27,8 +27,8 @@
   - name: Add the Logstash input configuration for Beats
     template: src=templates/logstash/beats-input.conf dest=/etc/logstash/conf.d/00-beats-input.conf
 
-  - name: Add an empty Logstash filter configuration
-    template: src=templates/logstash/empty-filter.conf dest=/etc/logstash/conf.d/11-empty-filter.conf
+  # - name: Add an empty Logstash filter configuration
+  #   template: src=templates/logstash/empty-filter.conf dest=/etc/logstash/conf.d/11-my-filter.conf
 
   - name: Add the Logstash output configuration to Elasticsearch
     template: src=templates/logstash/elasticsearch-output.conf dest=/etc/logstash/conf.d/20-elasticsearch-output.conf

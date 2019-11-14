@@ -1,6 +1,6 @@
 # Elastic Stack in a Box
 
-This is a fork of xeraa's [vagrant-elastic-stack](https://github.com/xeraa/vagrant-elastic-stack) without the x-pack trial and Beats setups.
+This is a fork of xeraa's [vagrant-elastic-stack](https://github.com/xeraa/vagrant-elastic-stack) without the x-pack trial and Beats setups. This fork's intended use was for fast ELK setup on a VM, with [FileBeat](https://www.elastic.co/products/beats/filebeat) on the Host.
 
 This repository will install the [Elastic Stack](https://www.elastic.co/products) (Elasticsearch, Logstash, and Kibana)
 
@@ -26,5 +26,7 @@ Or if you are in a hurry, run all playbooks with `$ /elastic-stack/all.sh` at on
 
 Access Kibana at [http://127.0.0.1:5601](http://127.0.0.1:5601).
 
+
 ## Logstash
-Port forwarding for Logstash at [http://127.0.0.1:5044](http://127.0.0.1:5044)
+
+Filebeat port for Logstash at [http://127.0.0.1:5044](http://127.0.0.1:5044).
