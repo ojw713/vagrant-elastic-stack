@@ -27,4 +27,4 @@ Or if you are in a hurry, run all playbooks with `$ /elastic-stack/all.sh` at on
 Access Kibana at [http://127.0.0.1:5601](http://127.0.0.1:5601).
 
 ## Logstash
-Port forwarding for Logstash at [http://127.0.0.1:9600](http://127.0.0.1:9600)
+Port forwarding for Logstash at [http://127.0.0.1:5044](http://127.0.0.1:5044)
