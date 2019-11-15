@@ -43,5 +43,8 @@
   - name: Create the pattern directory
     file: path=/opt/logstash/patterns/ state=directory recurse=yes
 
+  # - name: Add the workbook pattern, so we can use it later on
+  #   template: src=templates/logstash/empty-pattern dest=/opt/logstash/patterns/mypattern
+
   - name: Start Logstash
     service: name=logstash state=restarted
